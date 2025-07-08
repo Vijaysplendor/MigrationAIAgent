@@ -54,6 +54,21 @@ This Repo is used for the migration accelerators to infuse AI by creating an AI 
              | create_branch_with_yaml()        |
              +----------------------------------+
 
+# Simplified Sequence diagram
+
+Claude Desktop Role : Claude Desktop acts as a frontend
+
+           Claude Desktop
+                |
+                | migrate_classic_pipelines()
+                |
+           FastMCP Tool (azure_mcp_tool.py)
+                |
+                | run_pipeline_conversion()
+                |
+           pipeline_converter.py
+                |
+           Azure DevOps API
 
 
 
