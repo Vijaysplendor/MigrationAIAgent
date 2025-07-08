@@ -24,7 +24,7 @@ This Repo is used for the migration accelerators to infuse AI by creating an AI 
 
 # Script Flow Diagram
 
-                 Claude Desktop ➝ migrate_classic_pipelines()
+             Claude Desktop ➝ migrate_classic_pipelines()
                       |
                       v
              +-------------------------+
@@ -51,8 +51,8 @@ This Repo is used for the migration accelerators to infuse AI by creating an AI 
                       |
                       v
              +----------------------------------+
-  | create_branch_with_yaml()        |
-  +----------------------------------+
+             | create_branch_with_yaml()        |
+             +----------------------------------+
 
 
 
